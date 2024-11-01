@@ -26,7 +26,7 @@ public class ViewMain {
     public void showMenu() {
         boolean running = true;
 
-        String menu = "1. Print UserData\n" + "2. Print Nilai Akhir Mahasiswa\n" + "3. Print Rata-Rata Nilai Akhir\n" + "4. Print Jumlah Mahasiswa Tidak Lulus\n" + "5. Print Mata Kuliah Ambil Mahasiswa\n" + "6. Print Total Jam Mengajar Dosen\n" + "7. Print Gaji Staff\n" + "0. Exit\n" + "Pilih menu:";
+        String menu = "1. Print UserData\n" + "2. Print Nilai Akhir Mahasiswa\n" + "3. Print Rata-Rata Nilai Akhir\n" + "4. Print Jumlah Mahasiswa Tidak Lulus\n" + "5. Print Mata Kuliah yang diambil Mahasiswa\n" + "6. Print Total Jam ngajar Dosen\n" + "7. Print Gaji Staff\n" + "0. Exit\n" + "Pilih menu:";
 
         while (running) {
             String input = input(menu);
